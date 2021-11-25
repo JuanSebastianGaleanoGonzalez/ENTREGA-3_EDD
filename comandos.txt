@@ -1,0 +1,12 @@
+0/ayuda/Llamado Correcto: ayuda, muestra la informacion de cada comando permitido en el programa
+1/cargar/LLamado Correcto: cargar "nombre_Archivo", carga la información del objeto contenida en un archivo
+2/listado/Llamado Correcto: listado, lista los archivos cargados actualmente en memoria con su informacion basica
+3/envolvente/Llamado Correcto: envolvente- envolvente "nombre_Objeto", hay dos variantes, cuando se escribe junto al nombre de un objeto calcula la caja envolvente de ese objeto, si se escribe solo lo calcula para todos los objetos
+4/descargar/Llamado Correcto: descargar "nombre_objeto", descarga de la memoria la informacion basica del objeto
+5/guardar/Llamado Correcto: guardar "nombre_Objeto" "nombre_Archivo", escribe en un archivo de texto la informacion basica de un objeto
+6/v_cercano/Llamado Correcto: v_cercano "px" "py" "pz" "nombre_Objeto"- v_cercano "px" "py" "pz", identifica el vértice del objeto mas cercano al punto indicado con coordenadas (px,py,pz), si no se especifica el nombre, lo identifica entre todos los objetos cargados
+7/v_cercanos_caja/Llamado Correcto: v_cercanos_caja "nombre_Objeto", identifica los vértices del objeto mas cercanos a los puntos que definen la respectiva caja envolvente del objeto
+8/ruta_corta/Llamado Correcto: ruta_corta "i1" "i2" "nombre_Objeto", identifica los índices de los vértices que conforman la ruta más corta entre los vérticesdados para el objeto, "i1" y "i2" idican los vertices
+9/ruta_corta_centro/Llamado Correcto: ruta_corta_centro "i1" "nombre_Objeto", identifica los índices de los vértices que conforman la ruta más corta entre el vértice dado (i1) y el centro del objeto
+10/salir/Llamado Correcto: salir, cierra la aplicación
+FINAL
